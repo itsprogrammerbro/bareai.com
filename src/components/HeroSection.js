@@ -5,7 +5,7 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className="hero-container">
-            {/* <video src="../videos/video-2" autoPlay loop muted/> */}
+            <video src="/videos/video-2.mp4" autoPlay loop muted/>
             <h1>Bare Artificial Intelligence</h1>
             <p>Unlock The Power of AI</p>
             <div className="hero-btns">
