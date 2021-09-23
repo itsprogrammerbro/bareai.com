@@ -1,10 +1,11 @@
 import React from 'react'
 import '../../App.css'
-import HeroSection from '../HeroSection'
+import CardBox from '../CardBox'
 function Pricing() {
     return (
         <>
-            <HeroSection/>
+            <h1 className="pricing">Pricing</h1>
+            <CardBox/>
         </>
     )
 }

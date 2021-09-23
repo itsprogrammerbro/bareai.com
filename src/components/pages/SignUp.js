@@ -1,11 +1,9 @@
 import React from 'react'
 import '../../App.css'
-function About() {
+export default function SignUp() {
     return (
         <>
-            <h1 className="about">About Page</h1>
+            <h1 className="sign-up">Sign Up Page</h1>
         </>
     )
 }
-
-export default About

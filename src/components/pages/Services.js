@@ -1,12 +1,9 @@
 import React from 'react'
 import '../../App.css'
-import HeroSection from '../HeroSection'
-function Services() {
+export default function Services() {
     return (
         <>
-            <HeroSection/>
+            <h1 className="services">Services Page</h1>
         </>
     )
 }
-
-export default Services
